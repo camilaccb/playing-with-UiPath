@@ -21129,15 +21129,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\camis\\.nuget\\packages\\": {}
+    "C:\\Users\\Camila Caldas\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Creating asset",
       "projectName": "Creating asset",
-      "projectPath": "C:\\Users\\camis\\OneDrive\\Documentos\\UiPath\\Creating asset\\.local",
-      "packagesPath": "C:\\Users\\camis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camis\\OneDrive\\Documentos\\UiPath\\Creating asset\\.local"
+      "projectPath": "D:\\Documents\\MeusProjetosVersionados\\playing-with-UiPath\\Creating asset\\.local",
+      "packagesPath": "C:\\Users\\Camila Caldas\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\MeusProjetosVersionados\\playing-with-UiPath\\Creating asset\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21173,7 +21173,7 @@
             "version": "[1.13.3, 1.13.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\camis\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Camila Caldas\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
