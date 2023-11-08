@@ -3,6 +3,7 @@ import os
 import logging
 import datetime
 import pandas as pd
+import traceback
 
 SCRIPT_DIRETORIO = os.path.dirname(os.path.abspath(__file__))
 
@@ -57,26 +58,37 @@ def main(num1_str: str,num2_str: str):
     Receive 2 numbers and write in a sheet
     """
 
-    # Set log file
-    set_log_file()
-    logging.info("Log file created")
+    try:
+        # Set log file
+        set_log_file()
+        logging.info("Log file created")
 
-    # Include execution information
-    include_info_execution()
+        # Include execution information
+        include_info_execution()
 
-    # Transform string to integer
-    num1_int = int(num1_str)
-    num2_int = int(num2_str)
+        # Transform string to integer
+        num1_int = int(num1_str)
+        num2_int = int(num2_str)
 
-    # Create dataframe
-    data = {'Number 1': [num1_int], 'Number 2': [num2_int]}
-    df = pd.DataFrame(data)
+        # Create dataframe
+        data = {'Number 1': [num1_int], 'Number 2': [num2_int]}
+        df = pd.DataFrame(data)
 
-    # Define excel file path
-    excel_file_name = 'numbers.xlsx'
+        # Define excel file path
+        excel_file_name = 'numbers.xlsx'
 
-    # Write dataframe in excel
-    df.to_excel(excel_file_name, index=False)
-    logging.info("Received data was inlcuded in excel")
+        # Write dataframe in excel
+        df.to_excel(excel_file_name, index=False)
+        logging.info("Received data was inlcuded in excel")
 
+        output = "sucesso"
+
+        return output
+
+    except Exception:
+        trackback_str = traceback.format_exc()
+        logging.info(trackback_str)
+        return trackback_str
+    
+main("1","2")
   

@@ -1,5 +1,6 @@
 {
   "name": "Ambiente Virtual",
+  "projectId": "91b34e7f-a514-4aed-848a-e16eedf6ca16",
   "description": "",
   "main": "Main.xaml",
   "dependencies": {
@@ -44,7 +45,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": true,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [

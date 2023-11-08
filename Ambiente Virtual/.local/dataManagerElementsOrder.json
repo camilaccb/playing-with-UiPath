@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arguments&Sequence_1",
+        "num1Str&Sequence_1",
+        "num2Str&Sequence_1",
+        "directory&Sequence_1",
+        "libraryPath&Sequence_1",
+        "path&Sequence_1",
+        "workingFolder&Sequence_1",
+        "virtualEnvironmentFolder&Sequence_1",
+        "outputPS&Sequence_1",
+        "instance&Sequence_2",
+        "pythonReturn&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
